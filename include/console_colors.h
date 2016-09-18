@@ -10,7 +10,9 @@
 #include "color.h"
 #include "bgcolor.h"
 #include "bright.h"
-#include "end.h"
+#include "reset.h"
 #include "set.h"
+#include "reset_bgcolor.h"
+#include "reset_color.h"
 
 #endif //CONSOLE_COLOR_LIBCONSOLE_COLORS_H

@@ -10,7 +10,7 @@
 
 namespace cc {
 
-    std::ostream &end(std::ostream &os);
+    std::ostream &reset(std::ostream &os);
 
 }
 

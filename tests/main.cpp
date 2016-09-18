@@ -11,9 +11,12 @@ using namespace cc;
 int main() {
 
     std::cout << color(red) << "ddd" << bgcolor(white) << "asdfg";
-    std::cout << set(yellow, green, true, false) << "dfdf" << end << std::endl;
+    std::cout << set(yellow, green, true, false) << "dfdf" << reset << std::endl;
 
-    std::cout << color(red) << "ffff" << bright << "gggggg" << end;
+    std::cout << color(red) << "ffff" << bright << "gggggg" << reset << std::endl;
+
+    std::cout << set(blue, magenta, true, true) << "aaaaaa" << reset_color << "bbbbbbb" << reset_bgcolor << "cccc"
+              << std::endl;
 
 
 }

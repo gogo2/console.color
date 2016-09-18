@@ -5,7 +5,9 @@ set(LIB_FILES
         set.cpp
         bgcolor.cpp
         bright.cpp
-        end.cpp
+        reset.cpp
+        reset_color.cpp
+        reset_bgcolor.cpp
         )
 
 set(LIB_FILES_W32
