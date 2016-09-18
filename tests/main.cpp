@@ -11,7 +11,7 @@ std::ostream &tt(std::ostream &os) {
 
 int main() {
 
-    std::cout << tt;
+    std::cout << "\x1b[31;42m;1" << "asdfghjk" << "\x1b[0m";
 
 
 }

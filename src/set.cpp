@@ -1,13 +1,14 @@
 //
-// file bgcolor.cpp
+// file set.cpp
 // Created by Bartek
 //
 
-#include "bgcolor.h"
+#include "set.h"
 
 namespace cc {
 
-    std::ostream &bgcolor(std::ostream &os, Color bgcolor, bool bright = false) {
+    std::ostream &
+    set(std::ostream &os, Color txt_color, Color bgcolor, bool txt_bright = false, bool bg_bright = false) {
         if (bright)
             os << "\x1b[" << ((int) color + 10) << ";1m";
         else
