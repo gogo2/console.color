@@ -1,8 +1,8 @@
 project(console_color_lib)
 
 set(LIB_FILES
-        set.cpp
         color.cpp
+        set.cpp
         bgcolor.cpp
         bright.cpp
         end.cpp
@@ -18,10 +18,12 @@ set(LIB_FILES_W32
 
 include_directories(../include)
 
-if (WIN32)
+add_library(console_color_lib STATIC ${LIB_FILES})
+
+#[[if (WIN32)
     add_library(console_color_lib STATIC ${LIB_FILES_W32})
 else ()
     add_library(console_color_lib STATIC ${LIB_FILES})
-endif ()
+endif ()]]
 
 set_target_properties(console_color_lib PROPERTIES LINKER_LANGUAGE CXX)

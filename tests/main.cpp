@@ -4,14 +4,15 @@
 //
 
 #include <iostream>
+#include "console_colors.h"
 
-std::ostream &tt(std::ostream &os) {
-    return os;
-}
+using namespace cc;
 
 int main() {
 
-    std::cout << "\x1b[31;42m;1" << "asdfghjk" << "\x1b[0m";
+    std::cout << color(Color::red) << "ddd" << bgcolor(Color::white) << "asdfg" << set(yellow, green, true, false)
+              << "dfdf"
+              << end;
 
 
 }

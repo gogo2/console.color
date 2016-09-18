@@ -10,6 +10,7 @@ set(SOURCE_FILES_W32
 include_directories(../include)
 
 add_executable(console_color_tests ${SOURCE_FILES})
+target_link_libraries(console_color_tests console_color_lib)
 
 #[[
 if (WIN32)

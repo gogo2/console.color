@@ -7,12 +7,10 @@
 
 namespace cc {
 
-    std::ostream &
-    set(std::ostream &os, Color txt_color, Color bgcolor, bool txt_bright = false, bool bg_bright = false) {
-        if (bright)
-            os << "\x1b[" << ((int) color + 10) << ";1m";
-        else
-            os << "\x1b[" << ((int) color + 10) << 'm';
+    std::ostream &operator<<(std::ostream &os, const set &_s) {
+        int text_color_code = int(_s.txt_color_) + (_s.txt_bright_ ? 60 : 0);
+        int bg_color_code = int(_s.bgcolor_) + (_s.bg_bright_ ? 70 : 10);
+        os << "\x1b[" << text_color_code << ';' << bg_color_code << 'm';
         return os;
     }
 

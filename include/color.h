@@ -11,7 +11,16 @@
 
 namespace cc {
 
-    std::ostream &color(std::ostream &os, Color color, bool bright = false);
+    class color {
+    public:
+        color(Color color, bool bright = false) : color_(color), bright_(bright) {};
+
+        friend std::ostream &operator<<(std::ostream &os, const color &_c);
+
+    private:
+        Color color_;
+        bool bright_;
+    };
 
 }
 

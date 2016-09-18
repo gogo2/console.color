@@ -7,11 +7,9 @@
 
 namespace cc {
 
-    std::ostream &bgcolor(std::ostream &os, Color bgcolor, bool bright = false) {
-        if (bright)
-            os << "\x1b[" << ((int) color + 10) << ";1m";
-        else
-            os << "\x1b[" << ((int) color + 10) << 'm';
+    std::ostream &operator<<(std::ostream &os, const bgcolor &_b) {
+        int color_code = (int) _b.color_ + (_b.bright_ ? 70 : 10);
+        os << "\x1b[" << color_code << 'm';
         return os;
     }
 
