@@ -4,7 +4,7 @@
 
 Implementation uses ASCCI escapoe codes.
 
-Functions _set_, _color_ and _bgcolor_ use **aixterm** codes for setting bright colors, if you want to use standard ASCII bold/bright codes please use _bright_ function after setting color with false _bright_ parameter.
+Functions **_set_**,**_color_** and **_bgcolor_** use **aixterm** codes for setting bright colors, if you want to use standard ASCII bold/bright codes please use **_bright_** function after setting color with false _bright_ parameter.
 
 
 Tested on Windows PowerShell and ubuntu 16.04

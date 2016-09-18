@@ -10,9 +10,10 @@ using namespace cc;
 
 int main() {
 
-    std::cout << color(Color::red) << "ddd" << bgcolor(Color::white) << "asdfg" << set(yellow, green, true, false)
-              << "dfdf"
-              << end;
+    std::cout << color(red) << "ddd" << bgcolor(white) << "asdfg";
+    std::cout << set(yellow, green, true, false) << "dfdf" << end << std::endl;
+
+    std::cout << color(red) << "ffff" << bright << "gggggg" << end;
 
 
 }
