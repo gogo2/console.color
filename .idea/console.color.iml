@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/bgcolor_w32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/bold_w32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/color_w32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/light_w32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/end_w32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://C:/bin/MinGW-14.0/include/c++/6.1.0" />
+          <root url="file://C:/bin/MinGW-14.0/x86_64-w64-mingw32/include" />
+          <root url="file://C:/bin/MinGW-14.0/lib/gcc/x86_64-w64-mingw32/6.1.0/include" />
+          <root url="file://C:/bin/MinGW-14.0/lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://C:/bin/MinGW-14.0/include/c++/6.1.0" />
+          <root url="file://C:/bin/MinGW-14.0/x86_64-w64-mingw32/include" />
+          <root url="file://C:/bin/MinGW-14.0/lib/gcc/x86_64-w64-mingw32/6.1.0/include" />
+          <root url="file://C:/bin/MinGW-14.0/lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
