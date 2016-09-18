@@ -15,7 +15,6 @@ set(LIB_FILES_W32
         color_w32.cpp
         bgcolor_w32.cpp
         bright_w32.cpp
-        end_w32.cpp
         )
 
 include_directories(../include)
