@@ -15,8 +15,10 @@ int main() {
 
     std::cout << color(red) << "ffff" << bright << "gggggg" << reset << std::endl;
 
+    std::cout << Win32Handler::default_attrs;
+
     std::cout << set(blue, magenta, true, true) << "aaaaaa" << reset_color << "bbbbbbb" << reset_bgcolor << "cccc"
-              << std::endl;
+              << reset/*for win32*/<< std::endl;
 
 
 }

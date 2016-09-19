@@ -2,13 +2,14 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src/reset_bgcolor.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/color.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/set.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/reset.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/reset_color.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/bgcolor.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/bright.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/bgcolor_w32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Win32Handler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/set_w32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/color_w32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/reset_bgcolor_w32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/reset_color_w32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/reset_w32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/bright_w32.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/include" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
