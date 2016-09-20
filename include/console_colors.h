@@ -14,5 +14,6 @@
 #include "set.h"
 #include "reset_bgcolor.h"
 #include "reset_color.h"
+#include "clear.h"
 
 #endif //CONSOLE_COLOR_LIBCONSOLE_COLORS_H

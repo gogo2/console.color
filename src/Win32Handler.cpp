@@ -47,4 +47,12 @@ namespace cc {
         return color_word;
     }
 
+    WORD Win32Handler::zeroColor() {
+        return 240;
+    }
+
+    WORD Win32Handler::zeroBGColor() {
+        return 15;
+    }
+
 }

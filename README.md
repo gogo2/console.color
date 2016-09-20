@@ -8,10 +8,6 @@ Implementation uses WinAPI for Windows and ANSI escape codes for other OSes.
 ####___
 Function **_bright_** sets bold/bright color only for text.
 
-
-#### Windows
-Functions **_reset_bgcolor_** and **_reset_color_** are not implemented for Win32 for now(you can use them, byt they will do nothing)
-
 ####Other OSes
 Functions **_set_**, **_color_** and **_bgcolor_** use **aixterm** codes for setting bright colors, if you want to use standard ANSI bold/bright codes please use **_bright_** function after setting color with false _bright_ parameter.
 

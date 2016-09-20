@@ -15,11 +15,17 @@ namespace cc {
 
         static HANDLE outHandler;
 
+        static CONSOLE_SCREEN_BUFFER_INFO info;
+
         static const WORD default_attrs;
 
         static WORD getCurrentAttrs();
 
         static WORD getW32AttrWord(Color color, bool bright, bool bg);
+
+        static WORD zeroColor();
+
+        static WORD zeroBGColor();
 
         static const WORD w32_attrs[];
     };

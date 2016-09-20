@@ -8,6 +8,7 @@ set(LIB_FILES
         reset.cpp
         reset_color.cpp
         reset_bgcolor.cpp
+        clear.cpp
         )
 
 set(LIB_FILES_W32
@@ -19,6 +20,7 @@ set(LIB_FILES_W32
         reset_w32.cpp
         reset_bgcolor_w32.cpp
         reset_color_w32.cpp
+        clear_w32.cpp
         )
 
 include_directories(../include)
