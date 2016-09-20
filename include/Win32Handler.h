@@ -21,9 +21,9 @@ namespace cc {
 
         static WORD getW32AttrWord(Color color, bool bright, bool bg);
 
-        static WORD zeroColor();
+        static inline WORD zeroColor() { return 240; }
 
-        static WORD zeroBGColor();
+        static inline WORD zeroBGColor() { return 15; }
 
         static const WORD w32_attrs[];
     };
