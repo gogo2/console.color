@@ -15,8 +15,6 @@ namespace cc {
 
         static HANDLE outHandler;
 
-        static CONSOLE_SCREEN_BUFFER_INFO info;
-
         static const WORD default_attrs;
 
         static WORD getCurrentAttrs();

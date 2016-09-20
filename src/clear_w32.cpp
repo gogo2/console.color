@@ -3,7 +3,7 @@
 // Created by Bartek
 //
 
-#include "reset.h"
+#include "clear.h"
 #include "Win32Handler.h"
 
 namespace cc {
@@ -18,7 +18,6 @@ namespace cc {
         FillConsoleOutputAttribute(Win32Handler::outHandler, Win32Handler::getCurrentAttrs(),
                                    info.dwSize.X * info.dwSize.Y, start, &written);
         SetConsoleCursorPosition(Win32Handler::outHandler, start);
-
         return os;
     }
 
