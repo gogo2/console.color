@@ -7,7 +7,7 @@
 #define CONSOLE_COLOR_WIN32HANDLER_H
 
 #include <Windows.h>
-#include "colors.h"
+#include "enums.h"
 
 namespace cc {
 
@@ -19,7 +19,7 @@ namespace cc {
 
         static WORD getCurrentAttrs();
 
-        static WORD getW32AttrWord(Color color, bool bright, bool bg);
+        static WORD getW32AttrWord(Color color, Intensity intensity, bool bg);
 
         static constexpr WORD zeroColor() { return 240; }
 

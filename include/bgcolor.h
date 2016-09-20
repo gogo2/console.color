@@ -7,19 +7,19 @@
 #define CONSOLE_COLOR_BGCOLOR_H
 
 #include <ostream>
-#include "colors.h"
+#include "enums.h"
 
 namespace cc {
 
     class bgcolor {
     public:
-        bgcolor(Color color, bool bright = false) : color_(color), bright_(bright) {};
+        bgcolor(Color color, Intensity intensity = normal) : color_(color), intensity_(intensity) {};
 
         friend std::ostream &operator<<(std::ostream &os, const bgcolor &_b);
 
     private:
         Color color_;
-        bool bright_;
+        Intensity intensity_;
     };
 
 }

@@ -7,19 +7,19 @@
 #define CONSOLE_COLOR_COLOR_H
 
 #include <ostream>
-#include "colors.h"
+#include "enums.h"
 
 namespace cc {
 
     class color {
     public:
-        color(Color color, bool bright = false) : color_(color), bright_(bright) {};
+        color(Color color, Intensity intensity = normal) : color_(color), intensity_(intensity) {};
 
         friend std::ostream &operator<<(std::ostream &os, const color &_c);
 
     private:
         Color color_;
-        bool bright_;
+        Intensity intensity_;
     };
 
 }

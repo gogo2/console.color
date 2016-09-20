@@ -6,10 +6,10 @@
 #ifndef CONSOLE_COLOR_LIBCONSOLE_COLORS_H
 #define CONSOLE_COLOR_LIBCONSOLE_COLORS_H
 
-#include "colors.h"
+#include "enums.h"
 #include "color.h"
 #include "bgcolor.h"
-#include "bright.h"
+#include "brighten.h"
 #include "reset.h"
 #include "set.h"
 #include "reset_bgcolor.h"

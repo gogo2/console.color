@@ -4,7 +4,7 @@ set(LIB_FILES
         color.cpp
         set.cpp
         bgcolor.cpp
-        bright.cpp
+        brighten.cpp
         reset.cpp
         reset_color.cpp
         reset_bgcolor.cpp
@@ -15,7 +15,7 @@ set(LIB_FILES_W32
         set_w32.cpp
         color_w32.cpp
         bgcolor_w32.cpp
-        bright_w32.cpp
+        brighten_w32.cpp
         Win32Handler.cpp
         reset_w32.cpp
         reset_bgcolor_w32.cpp

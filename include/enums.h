@@ -19,6 +19,11 @@ namespace cc {
         white = 37
     };
 
+    enum Intensity {
+        normal = 0,
+        bright = 1
+    };
+
 }
 
 

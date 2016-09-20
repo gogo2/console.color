@@ -17,9 +17,9 @@ namespace cc {
         return info.wAttributes;
     }
 
-    WORD Win32Handler::getW32AttrWord(Color color, bool bright, bool bg) {
+    WORD Win32Handler::getW32AttrWord(Color color, Intensity intensity, bool bg) {
         WORD color_word = Win32Handler::w32_attrs[(int) color - (bg ? 22 : 30)];
-        if (bright)
+        if (intensity == bright)
             color_word |= Win32Handler::w32_attrs[(bg ? 17 : 16)];
         return color_word;
     }

@@ -1,5 +1,5 @@
 //
-// file bright.h
+// file brighten.h
 // Created by Bartek
 //
 
@@ -10,7 +10,7 @@
 
 namespace cc {
 
-    std::ostream &bright(std::ostream &os);
+    std::ostream &brighten(std::ostream &os);
 
 }
 

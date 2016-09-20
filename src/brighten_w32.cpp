@@ -3,12 +3,12 @@
 // Created by Bartek
 //
 
-#include "bright.h"
+#include "brighten.h"
 #include "Win32Handler.h"
 
 namespace cc {
 
-    std::ostream &bright(std::ostream &os) {
+    std::ostream &brighten(std::ostream &os) {
         WORD current_color_word = Win32Handler::getCurrentAttrs();
         SetConsoleTextAttribute(Win32Handler::outHandler, (WORD) (current_color_word | FOREGROUND_INTENSITY));
         return os;
