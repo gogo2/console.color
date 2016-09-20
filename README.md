@@ -6,10 +6,10 @@ Implementation uses WinAPI for Windows and ANSI escape codes for other OSes.
 
 
 ####___
-Function **_bright_** sets bold/bright color only for text.
+Function **_brighten_** sets bold/bright color only for text.
 
 ####Other OSes
-Functions **_set_**, **_color_** and **_bgcolor_** use **aixterm** codes for setting bright colors, if you want to use standard ANSI bold/bright codes please use **_bright_** function after setting color with false _bright_ parameter.
+Functions **_set_**, **_color_** and **_bgcolor_** use **aixterm** codes for setting bright colors, if you want to use standard ANSI bold/bright codes please use **_brighten_** function after setting color with normal _intensity_ parameter.
 
 
 ####Tested on:
