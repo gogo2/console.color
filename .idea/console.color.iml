@@ -5,8 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/bgcolor_w32.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Win32Handler.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/brighten_w32.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/reset_bgcolor_w32.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/set_w32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/reset_bgcolor_w32.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/reset_color_w32.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/reset_w32.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/color_w32.cpp" isTestSource="false" />
