@@ -5,7 +5,7 @@
 Implementation uses WinAPI for Windows and ANSI escape codes for other OSes.
 
 
-####Available colors
+#### Available colors
 * black
 * red
 * green
@@ -17,14 +17,14 @@ Implementation uses WinAPI for Windows and ANSI escape codes for other OSes.
 
 all with _normal_ and _bright/bold_ intensity
 
-####_____
+#### _____
 Function **_brighten_** sets bold/bright color only for text.
 
-####OSes other than Windows
+#### OSes other than Windows
 Functions **_set_**, **_color_** and **_bgcolor_** use **aixterm** codes for setting bright colors, if you want to use standard ANSI bold/bright codes please use **_brighten_** function after setting color with _intensity_ parameter set to _normal_.
 
 
-####Tested on:
+#### Tested on:
 * Windows 10 cmd.exe
 * Windows 7 cmd.exe
 * Windows PowerShell
